@@ -1,31 +1,23 @@
-def instantiate_new_array
-[]
+def using_include(array, element)
+  array.include?(element)
 end
 
-def array_with_two_elements
-[1, 2]
+def using_sort(array, element)
+  array.sort
 end
 
-def first_element(array)
-  array[0]
+def using_reverse(array, element)
+  array.reverse
 end
 
-def third_element(array)
-  array[2]
-end
-
-def last_element(array)
-  array[-1]
-end
-
-def first_element_with_array_methods(array)
+def using_first(array, element)
   array.first
 end
 
-def last_element_with_array_methods(array)
-  array.last
+def using_last(array)
+  array.last 
 end
 
-def length_of_array(array)
- array.length
+def using_size(array)
+  array.size
 end
